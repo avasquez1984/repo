@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\repo\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\repo\\consulta_union_expect.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:consulta_union_expect.sql||{B5A506EB-11BE-4782-9A18-21265C2CA0B4}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,19 +9,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "consulta_union_expect.sql - CTPC-DTI-18-LAP.master (CTPC\\antonio.vasquez (56))",
-              "DocumentMoniker": "C:\\repo\\consulta_union_expect.sql",
-              "RelativeDocumentMoniker": "consulta_union_expect.sql",
-              "ToolTip": "C:\\repo\\consulta_union_expect.sql - CTPC-DTI-18-LAP.master (CTPC\\antonio.vasquez (56))",
-              "RelativeToolTip": "consulta_union_expect.sql - CTPC-DTI-18-LAP.master (CTPC\\antonio.vasquez (56))",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-10-28T19:35:07.917Z",
-              "EditorCaption": " - CTPC-DTI-18-LAP.master (CTPC\\antonio.vasquez (56))"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
