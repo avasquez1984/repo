@@ -28,3 +28,6 @@ from customers as c outer apply fn_cliente_ordenes(c.customerid) as o
 where o.OrderID is null
 order by c.CustomerID
 go
+
+
+select * from products;
