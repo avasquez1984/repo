@@ -29,3 +29,19 @@ go
 
 select * from fn_productos(4)
 go
+
+
+create function fn_cliente ( @codigo varchar(10))
+returns table
+as
+return(
+select companyname+ ' - '+ contactname as detalle, 
+       city as ciudad, 
+       country as pais
+from customers
+where customerid = @codigo)
+go
+
+select * from Customers;
+
+select * from fn_cliente('ANTON');
