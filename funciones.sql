@@ -45,3 +45,19 @@ go
 select * from Customers;
 
 select * from fn_cliente('ANTON');
+go
+
+create function fn_envio ( @codigo VARCHAR(10) )
+returns table 
+as
+return
+(select distinct c.CompanyName as compania, 
+                 o.ShipName as direccion_envio, 
+                 o.ShipCountry as pais_envio
+from customers as c inner join orders as o on c.CustomerID = o.CustomerID
+where C.CustomerID = @codigo)
+go
+
+select * from fn_envio('ANTON');
+
+select * from customers;
