@@ -58,6 +58,6 @@ from customers as c inner join orders as o on c.CustomerID = o.CustomerID
 where C.CustomerID = @codigo)
 go
 
-select * from fn_envio('ANTON');
+select compania from fn_envio('AROUT');
 
 select * from customers;
