@@ -12,4 +12,4 @@ from employees
 where employeeid = @codigo)
 go
 
-select *  from fn_detalle_empleados(2);
+select *  from fn_detalle_empleados(9);
