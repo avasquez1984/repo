@@ -33,6 +33,9 @@ values (@customerid, @companyname, @contactname, @country)
 go
 
 
+select * from customers;
+
+
 execute proc_insert_cliente 'AVV18','ANTONIO VASQUEZ INC','ANTONIO VASQUEZ','REPUBLICA DOM';
 
 select * from customers where CustomerID='AVV19';
