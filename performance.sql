@@ -7,7 +7,7 @@ into clientes
 from customers;
 
 
-select customerid from clientes;
+select customerid, count(companyname) from clientes group by customerid order by CustomerID;
 
 create clustered index cl_cliente on clientes(customerid)
 
